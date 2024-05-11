@@ -56,4 +56,5 @@ stages:
         resourceGroup: '$(RESOURCE_GROUP)'
         containerAppEnvironment: '$(CONTAINERAPPS_ENVIRONMENT)'
         targetPort: '3500'
+        # Allow external access https://learn.microsoft.com/en-us/azure/container-apps/ingress-how-to?pivots=azure-resource-manager
         ingress: 'external'
